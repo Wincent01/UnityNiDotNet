@@ -128,11 +128,6 @@ namespace NiEditorApplication.Fdb
             SaveButton.onClick.AddListener(SaveDatabase);
 
             RowsAddButton.onClick.AddListener(AddRow);
-            
-            PullInButton.onClick.AddListener(() => { _pullPosition = InPosition.position; });
-            PullOutButton.onClick.AddListener(() => { _pullPosition = OutPosition.position; });
-
-            _pullPosition = OutPosition.position;
         }
 
         private void SaveDatabase()
@@ -271,19 +266,6 @@ namespace NiEditorApplication.Fdb
 
         private void Update()
         {
-            if (CanMove)
-            {
-                Moving = transform.position != _pullPosition;
-
-                if (Moving)
-                {
-                    transform.position =
-                        Vector3.MoveTowards(transform.position, _pullPosition, MoveSpeed * Time.deltaTime);
-                }
-            }
-            
-            PullInButton.interactable = !Moving && Database != default;
-            PullOutButton.interactable = !Moving && Database != default;
             SaveButton.interactable = Database != default;
             OpenButton.interactable = Database == default;
 
@@ -318,8 +300,6 @@ namespace NiEditorApplication.Fdb
             _activeTable = table;
             _seekIndex = table.Rows.IndexOf(row);
             SetupRows();
-
-            _pullPosition = OutPosition.position;
         }
         
         private void SetupTables()
@@ -550,7 +530,7 @@ namespace NiEditorApplication.Fdb
                                 field.Value = 0;
                                 break;
                             case DataType.Float:
-                                field.Value = float.Parse(s);
+                                field.Value = float.Parse(s.Replace('.', ','));
                                 break;
                             case DataType.Text:
                                 field.Value = s;
@@ -619,7 +599,7 @@ namespace NiEditorApplication.Fdb
                                 field.Value = 0;
                                 break;
                             case DataType.Float:
-                                field.Value = float.Parse(s);
+                                field.Value = float.Parse(s.Replace('.', ','));
                                 break;
                             case DataType.Text:
                                 field.Value = s;

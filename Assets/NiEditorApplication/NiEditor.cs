@@ -11,22 +11,35 @@ namespace NiEditorApplication
         
         [Header("Header")]
         public TextMeshProUGUI ApplicationTitle;
-        public Button PullInButton;
-        public Button PullOutButton;
-        public RectTransform InPosition;
-        public RectTransform OutPosition;
-        public float MoveSpeed;
         public GameObject RaycastCover;
+        public Button ActionButton;
 
         private RectTransform _rectTransform;
-        protected bool Moving;
-
-        protected static bool CanMove => true; //Editors.All(e => !e.Moving);
 
         public void Start()
         {
             _rectTransform = GetComponent<RectTransform>();
             Editors.Add(this);
+            
+            ActionButton.onClick.AddListener(() =>
+            {
+                foreach (var editor in Editors)
+                {
+                    editor.gameObject.SetActive(false);
+                }
+
+                gameObject.SetActive(true);
+            });
+        }
+
+        public void Activate()
+        {
+            foreach (var editor in Editors)
+            {
+                editor.gameObject.SetActive(false);
+            }
+
+            gameObject.SetActive(true);
         }
 
         public void FixedUpdate()

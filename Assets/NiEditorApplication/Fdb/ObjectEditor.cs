@@ -51,6 +51,8 @@ namespace NiEditorApplication.Fdb
         
         private Vector3 _pullPosition;
 
+        private int _lootSeekIndex;
+
         private readonly List<GameObject> _onReloadComponents = new List<GameObject>();
 
         private readonly List<GameObject> _onReloadItems = new List<GameObject>();
@@ -58,13 +60,6 @@ namespace NiEditorApplication.Fdb
         private void Awake()
         {
             Singleton = this;
-            
-            var position = InPosition.position;
-            _pullPosition = position;
-            transform.position = position;
-            
-            PullInButton.onClick.AddListener(() => { _pullPosition = InPosition.position; });
-            PullOutButton.onClick.AddListener(() => { _pullPosition = OutPosition.position; });
 
             SubmitObjectIdButton.onClick.AddListener(LoadObject);
             
@@ -73,20 +68,6 @@ namespace NiEditorApplication.Fdb
 
         public void Update()
         {
-            if (CanMove)
-            {
-                Moving = transform.position != _pullPosition;
-
-                if (Moving)
-                {
-                    transform.position = Vector3.MoveTowards(
-                        transform.position,
-                        _pullPosition,
-                        MoveSpeed * Time.deltaTime
-                    );
-                }
-            }
-            
             SaveButton.interactable = Object != default;
         }
 
@@ -176,7 +157,7 @@ namespace NiEditorApplication.Fdb
                     extendedButton.LeftClick += () =>
                     {
                         FdbEditor.Singleton.SeekRow(table, componentRow);
-                        _pullPosition = InPosition.position;
+                        FdbEditor.Singleton.Activate();
                     };
                 }
 
@@ -309,14 +290,14 @@ namespace NiEditorApplication.Fdb
                     id.transform.parent.GetComponent<Button>().onClick.AddListener(() =>
                     {
                         FdbEditor.Singleton.SeekRow(LootDbTable, loot.DatabaseRow);
-                        _pullPosition = InPosition.position;
+                        FdbEditor.Singleton.Activate();
                     });
 
                     instance.GetComponentsInChildren<Button>().First(b => b.gameObject.name == "Image").onClick
                         .AddListener(() =>
                         {
                             FdbEditor.Singleton.SeekRow(LootMatrixDbTable, lootMatrix.DatabaseRow);
-                            _pullPosition = InPosition.position;
+                            FdbEditor.Singleton.Activate();
                         });
 
                     var inputs = instance.GetComponentsInChildren<TMP_InputField>();
@@ -326,8 +307,8 @@ namespace NiEditorApplication.Fdb
                     var maxRate = inputs.First(d => d.gameObject.name == "MaxDrop");
 
                     dropRate.text = lootMatrix.percent.ToString(CultureInfo.CurrentCulture);
-                    minRate.text = lootMatrix.maxToDrop.ToString();
-                    maxRate.text = lootMatrix.minToDrop.ToString();
+                    minRate.text = lootMatrix.minToDrop.ToString();
+                    maxRate.text = lootMatrix.maxToDrop.ToString();
                     
                     if (index != default)
                     {
@@ -339,31 +320,33 @@ namespace NiEditorApplication.Fdb
                     {
                         dropRate.onEndEdit.AddListener(s =>
                         {
-                            lootMatrix.percent = float.Parse(s);
+                            lootMatrix.percent = float.Parse(s.Replace('.', ','));
+                            SetupLoot(lootMatrixIndex);
                         });
                         
                         minRate.onEndEdit.AddListener(s =>
                         {
                             lootMatrix.minToDrop = int.Parse(s);
+                            SetupLoot(lootMatrixIndex);
                         });
                         
                         maxRate.onEndEdit.AddListener(s =>
                         {
                             lootMatrix.maxToDrop = int.Parse(s);
+                            SetupLoot(lootMatrixIndex);
                         });
                     }
 
                     instance.transform.localPosition =
-                        new Vector3(0, 32 * visualIndex++, 0);
-
+                        new Vector3(0, -32 * visualIndex++, 0);
+                    
                     _onReloadItems.Add(instance);
                 }
 
                 visualIndex += .5f;
             }
             
-            ItemDropParent.sizeDelta = new Vector2(ItemDropParent.sizeDelta.x, visualIndex * 35);
-            ItemDropParent.position -= new Vector3(0, visualIndex * 35);
+            ItemDropParent.sizeDelta = new Vector2(ItemDropParent.sizeDelta.x, visualIndex * 32);
         }
     }
 }
