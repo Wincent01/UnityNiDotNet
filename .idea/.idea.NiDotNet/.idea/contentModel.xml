@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_NiDotNet.-437593835.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Materials" t="Include">
+          <e p="Nif" t="Include">
+            <e p="Vertex.shader" t="Include" />
+          </e>
+        </e>
+        <e p="NiEditorApplication" t="Include">
+          <e p="Build.cs" t="Include" />
+          <e p="ExtendedButton.cs" t="Include" />
+          <e p="Fdb" t="Include">
+            <e p="FdbEditor.cs" t="Include" />
+            <e p="ObjectEditor.cs" t="Include" />
+          </e>
+          <e p="MiddleClickToBrowse.cs" t="Include" />
+          <e p="NiEditor.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Fdb" t="Include">
+            <e p="Database" t="Include">
+              <e p="ColumnInfo.cs" t="Include" />
+              <e p="FdbDatabase.cs" t="Include" />
+              <e p="Field.cs" t="Include" />
+              <e p="Row.cs" t="Include" />
+              <e p="Structures" t="Include">
+                <e p="AICombatRoles.cs" t="Include" />
+                <e p="AccessoryDefaultLoc.cs" t="Include" />
+                <e p="Activities.cs" t="Include" />
+                <e p="ActivityRewards.cs" t="Include" />
+                <e p="ActivityText.cs" t="Include" />
+                <e p="AnimationIndex.cs" t="Include" />
+                <e p="Animations.cs" t="Include" />
+                <e p="BaseCombatAIComponent.cs" t="Include" />
+                <e p="BehaviorEffect.cs" t="Include" />
+                <e p="BehaviorParameter.cs" t="Include" />
+                <e p="BehaviorTemplate.cs" t="Include" />
+                <e p="BehaviorTemplateName.cs" t="Include" />
+                <e p="Blueprints.cs" t="Include" />
+                <e p="BrickColors.cs" t="Include" />
+                <e p="BrickIDTable.cs" t="Include" />
+                <e p="BuffDefinitions.cs" t="Include" />
+                <e p="BuffParameters.cs" t="Include" />
+                <e p="Camera.cs" t="Include" />
+                <e p="CelebrationParameters.cs" t="Include" />
+                <e p="ChoiceBuildComponent.cs" t="Include" />
+                <e p="CollectibleComponent.cs" t="Include" />
+                <e p="ComponentsRegistry.cs" t="Include" />
+                <e p="ControlSchemes.cs" t="Include" />
+                <e p="CurrencyDenominations.cs" t="Include" />
+                <e p="CurrencyTable.cs" t="Include" />
+                <e p="DBExclude.cs" t="Include" />
+                <e p="DeletionRestrictions.cs" t="Include" />
+                <e p="DestructibleComponent.cs" t="Include" />
+                <e p="DevModelBehaviors.cs" t="Include" />
+                <e p="Emotes.cs" t="Include" />
+                <e p="EventGating.cs" t="Include" />
+                <e p="ExhibitComponent.cs" t="Include" />
+                <e p="Factions.cs" t="Include" />
+                <e p="FeatureGating.cs" t="Include" />
+                <e p="FlairTable.cs" t="Include" />
+                <e p="Icons.cs" t="Include" />
+                <e p="InventoryComponent.cs" t="Include" />
+                <e p="ItemComponent.cs" t="Include" />
+                <e p="ItemEggData.cs" t="Include" />
+                <e p="ItemFoodData.cs" t="Include" />
+                <e p="ItemSetSkills.cs" t="Include" />
+                <e p="ItemSets.cs" t="Include" />
+                <e p="JetPackPadComponent.cs" t="Include" />
+                <e p="LUPExhibitComponent.cs" t="Include" />
+                <e p="LUPExhibitModelData.cs" t="Include" />
+                <e p="LUPZoneIDs.cs" t="Include" />
+                <e p="LanguageType.cs" t="Include" />
+                <e p="LevelProgressionLookup.cs" t="Include" />
+                <e p="LootMatrix.cs" t="Include" />
+                <e p="LootMatrixIndex.cs" t="Include" />
+                <e p="LootTable.cs" t="Include" />
+                <e p="LootTableIndex.cs" t="Include" />
+                <e p="MinifigComponent.cs" t="Include" />
+                <e p="MinifigDecals_Eyebrows.cs" t="Include" />
+                <e p="MinifigDecals_Eyes.cs" t="Include" />
+                <e p="MinifigDecals_Legs.cs" t="Include" />
+                <e p="MinifigDecals_Mouths.cs" t="Include" />
+                <e p="MinifigDecals_Torsos.cs" t="Include" />
+                <e p="MissionEmail.cs" t="Include" />
+                <e p="MissionNPCComponent.cs" t="Include" />
+                <e p="MissionTasks.cs" t="Include" />
+                <e p="MissionText.cs" t="Include" />
+                <e p="Missions.cs" t="Include" />
+                <e p="ModelBehavior.cs" t="Include" />
+                <e p="ModularBuildComponent.cs" t="Include" />
+                <e p="ModuleComponent.cs" t="Include" />
+                <e p="MotionFX.cs" t="Include" />
+                <e p="MovementAIComponent.cs" t="Include" />
+                <e p="MovingPlatforms.cs" t="Include" />
+                <e p="NpcIcons.cs" t="Include" />
+                <e p="ObjectBehaviorXREF.cs" t="Include" />
+                <e p="ObjectBehaviors.cs" t="Include" />
+                <e p="ObjectSkills.cs" t="Include" />
+                <e p="Objects.cs" t="Include" />
+                <e p="PackageComponent.cs" t="Include" />
+                <e p="PetAbilities.cs" t="Include" />
+                <e p="PetComponent.cs" t="Include" />
+                <e p="PetNestComponent.cs" t="Include" />
+                <e p="PhysicsComponent.cs" t="Include" />
+                <e p="PlayerFlags.cs" t="Include" />
+                <e p="PlayerStatistics.cs" t="Include" />
+                <e p="PossessableComponent.cs" t="Include" />
+                <e p="Preconditions.cs" t="Include" />
+                <e p="PropertyEntranceComponent.cs" t="Include" />
+                <e p="PropertyTemplate.cs" t="Include" />
+                <e p="ProximityMonitorComponent.cs" t="Include" />
+                <e p="ProximityTypes.cs" t="Include" />
+                <e p="RacingModuleComponent.cs" t="Include" />
+                <e p="RailActivatorComponent.cs" t="Include" />
+                <e p="RarityTable.cs" t="Include" />
+                <e p="RarityTableIndex.cs" t="Include" />
+                <e p="RebuildComponent.cs" t="Include" />
+                <e p="RebuildSections.cs" t="Include" />
+                <e p="Release_Version.cs" t="Include" />
+                <e p="RenderComponent.cs" t="Include" />
+                <e p="RenderComponentFlash.cs" t="Include" />
+                <e p="RenderComponentWrapper.cs" t="Include" />
+                <e p="RenderIconAssets.cs" t="Include" />
+                <e p="ReputationRewards.cs" t="Include" />
+                <e p="RewardCodes.cs" t="Include" />
+                <e p="Rewards.cs" t="Include" />
+                <e p="RocketLaunchpadControlComponent.cs" t="Include" />
+                <e p="SceneTable.cs" t="Include" />
+                <e p="ScriptComponent.cs" t="Include" />
+                <e p="SkillBehavior.cs" t="Include" />
+                <e p="SmashableChain.cs" t="Include" />
+                <e p="SmashableChainIndex.cs" t="Include" />
+                <e p="SmashableComponent.cs" t="Include" />
+                <e p="SmashableElements.cs" t="Include" />
+                <e p="SpeedchatMenu.cs" t="Include" />
+                <e p="SubscriptionPricing.cs" t="Include" />
+                <e p="SurfaceType.cs" t="Include" />
+                <e p="TamingBuildPuzzles.cs" t="Include" />
+                <e p="TextDescription.cs" t="Include" />
+                <e p="TextLanguage.cs" t="Include" />
+                <e p="TrailEffects.cs" t="Include" />
+                <e p="UGBehaviorSounds.cs" t="Include" />
+                <e p="VehiclePhysics.cs" t="Include" />
+                <e p="VehicleStatMap.cs" t="Include" />
+                <e p="VendorComponent.cs" t="Include" />
+                <e p="WhatsCoolItemSpotlight.cs" t="Include" />
+                <e p="WhatsCoolNewsAndTips.cs" t="Include" />
+                <e p="WorldConfig.cs" t="Include" />
+                <e p="ZoneLoadingTips.cs" t="Include" />
+                <e p="ZoneSummary.cs" t="Include" />
+                <e p="ZoneTable.cs" t="Include" />
+                <e p="brickAttributes.cs" t="Include" />
+                <e p="dtproperties.cs" t="Include" />
+                <e p="mapAnimationPriorities.cs" t="Include" />
+                <e p="mapAssetType.cs" t="Include" />
+                <e p="mapIcon.cs" t="Include" />
+                <e p="mapItemTypes.cs" t="Include" />
+                <e p="mapRenderEffects.cs" t="Include" />
+                <e p="mapShaders.cs" t="Include" />
+                <e p="mapTextureResource.cs" t="Include" />
+                <e p="map_BlueprintCategory.cs" t="Include" />
+                <e p="sysdiagrams.cs" t="Include" />
+              </e>
+              <e p="Table.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="DataType.cs" t="Include" />
+            </e>
+            <e p="FdbBitInt.cs" t="Include" />
+            <e p="FdbColumnData.cs" t="Include" />
+            <e p="FdbColumnHeader.cs" t="Include" />
+            <e p="FdbData.cs" t="Include" />
+            <e p="FdbFile.cs" t="Include" />
+            <e p="FdbRowBucket.cs" t="Include" />
+            <e p="FdbRowData.cs" t="Include" />
+            <e p="FdbRowDataHeader.cs" t="Include" />
+            <e p="FdbRowHeader.cs" t="Include" />
+            <e p="FdbRowInfo.cs" t="Include" />
+            <e p="FdbScope.cs" t="Include" />
+            <e p="FdbString.cs" t="Include" />
+            <e p="FdbTableHeader.cs" t="Include" />
+            <e p="Object" t="Include">
+              <e p="FdbObject.cs" t="Include" />
+              <e p="ObjectComponent.cs" t="Include" />
+              <e p="ReplicaComponentId.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FdbViewer.cs" t="Include" />
+          <e p="Luz" t="Include">
+            <e p="Enums" t="Include">
+              <e p="AchievementRequired.cs" t="Include" />
+              <e p="PathBehavior.cs" t="Include" />
+              <e p="PathType.cs" t="Include" />
+              <e p="RentalTimeUnit.cs" t="Include" />
+            </e>
+            <e p="LuzCameraPath.cs" t="Include" />
+            <e p="LuzCameraWaypoint.cs" t="Include" />
+            <e p="LuzFile.cs" t="Include" />
+            <e p="LuzMovementWaypoint.cs" t="Include" />
+            <e p="LuzMovingPlatformPath.cs" t="Include" />
+            <e p="LuzMovingPlatformWaypoint.cs" t="Include" />
+            <e p="LuzPathConfig.cs" t="Include" />
+            <e p="LuzPathData.cs" t="Include" />
+            <e p="LuzPathWaypoint.cs" t="Include" />
+            <e p="LuzPropertyPath.cs" t="Include" />
+            <e p="LuzRaceWaypoint.cs" t="Include" />
+            <e p="LuzRailWaypoint.cs" t="Include" />
+            <e p="LuzScene.cs" t="Include" />
+            <e p="LuzSceneTransition.cs" t="Include" />
+            <e p="LuzSceneTransitionPoint.cs" t="Include" />
+            <e p="LuzSpawnerPath.cs" t="Include" />
+            <e p="LuzSpawnerWaypoint.cs" t="Include" />
+          </e>
+          <e p="LuzImporter.cs" t="Include" />
+          <e p="LuzViewer.cs" t="Include" />
+          <e p="Lvl" t="Include">
+            <e p="Chunk1000.cs" t="Include" />
+            <e p="Chunk2000.cs" t="Include" />
+            <e p="Chunk2001.cs" t="Include" />
+            <e p="LegoDataDictionary.cs" t="Include" />
+            <e p="LegoDataList.cs" t="Include" />
+            <e p="LvlFile.cs" t="Include" />
+            <e p="LvlObjectTemplate.cs" t="Include" />
+          </e>
+          <e p="NIF" t="Include">
+            <e p="Data" t="Include">
+              <e p="BlockInfo.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="AlphaFormat.cs" t="Include" />
+              <e p="BillboardMode.cs" t="Include" />
+              <e p="ConsistencyType.cs" t="Include" />
+              <e p="Endian.cs" t="Include" />
+              <e p="KeyType.cs" t="Include" />
+              <e p="MaterialColor.cs" t="Include" />
+              <e p="MipMapFormat.cs" t="Include" />
+              <e p="NiSwitchFlags.cs" t="Include" />
+              <e p="NiVersion.cs" t="Include" />
+              <e p="PixelComponent.cs" t="Include" />
+              <e p="PixelFormat.cs" t="Include" />
+              <e p="PixelLayout.cs" t="Include" />
+              <e p="PixelRepresentation.cs" t="Include" />
+              <e p="PixelTiling.cs" t="Include" />
+              <e p="PlatformID.cs" t="Include" />
+              <e p="RendererID.cs" t="Include" />
+              <e p="TexType.cs" t="Include" />
+              <e p="TransformMember.cs" t="Include" />
+              <e p="TransformMethod.cs" t="Include" />
+              <e p="VectorFlags.cs" t="Include" />
+            </e>
+            <e p="NiFile.cs" t="Include" />
+            <e p="NiHeader.cs" t="Include" />
+            <e p="NifImporter.cs" t="Include" />
+            <e p="Nodes" t="Include">
+              <e p="AbstractAdditionalGeometryData.cs" t="Include" />
+              <e p="NiAVObject.cs" t="Include" />
+              <e p="NiAlphaController.cs" t="Include" />
+              <e p="NiAlphaProperty.cs" t="Include" />
+              <e p="NiAmbientLight.cs" t="Include" />
+              <e p="NiBillboardNode.cs" t="Include" />
+              <e p="NiBoneData.cs" t="Include" />
+              <e p="NiBoneVertData.cs" t="Include" />
+              <e p="NiBoolData.cs" t="Include" />
+              <e p="NiBoolInterpController.cs" t="Include" />
+              <e p="NiBoolInterpolator.cs" t="Include" />
+              <e p="NiBoolean.cs" t="Include" />
+              <e p="NiBound.cs" t="Include" />
+              <e p="NiByte.cs" t="Include" />
+              <e p="NiByteColor4.cs" t="Include" />
+              <e p="NiCamera.cs" t="Include" />
+              <e p="NiColor3.cs" t="Include" />
+              <e p="NiColor4.cs" t="Include" />
+              <e p="NiDirectionalLight.cs" t="Include" />
+              <e p="NiDynamicEffect.cs" t="Include" />
+              <e p="NiExtraData.cs" t="Include" />
+              <e p="NiFloat.cs" t="Include" />
+              <e p="NiFloatData.cs" t="Include" />
+              <e p="NiFloatInterpController.cs" t="Include" />
+              <e p="NiFloatInterpolator.cs" t="Include" />
+              <e p="NiFormatPrefs.cs" t="Include" />
+              <e p="NiGeometry.cs" t="Include" />
+              <e p="NiGeometryData.cs" t="Include" />
+              <e p="NiImage.cs" t="Include" />
+              <e p="NiInterpController.cs" t="Include" />
+              <e p="NiInterpolator.cs" t="Include" />
+              <e p="NiKey.cs" t="Include" />
+              <e p="NiKeyBasedInterpolator.cs" t="Include" />
+              <e p="NiKeyGroup.cs" t="Include" />
+              <e p="NiKeyframeController.cs" t="Include" />
+              <e p="NiKeyframeData.cs" t="Include" />
+              <e p="NiLODData.cs" t="Include" />
+              <e p="NiLODNode.cs" t="Include" />
+              <e p="NiLODRange.cs" t="Include" />
+              <e p="NiLight.cs" t="Include" />
+              <e p="NiMatchGroup.cs" t="Include" />
+              <e p="NiMaterialColorController.cs" t="Include" />
+              <e p="NiMaterialData.cs" t="Include" />
+              <e p="NiMaterialProperty.cs" t="Include" />
+              <e p="NiMatrix2x2.cs" t="Include" />
+              <e p="NiMatrix3X3.cs" t="Include" />
+              <e p="NiMipMap.cs" t="Include" />
+              <e p="NiNode.cs" t="Include" />
+              <e p="NiObject.cs" t="Include" />
+              <e p="NiObjectNet.cs" t="Include" />
+              <e p="NiPalette.cs" t="Include" />
+              <e p="NiPersistentSrcTextureRendererData.cs" t="Include" />
+              <e p="NiPixelData.cs" t="Include" />
+              <e p="NiPixelFormat.cs" t="Include" />
+              <e p="NiPoint3InterpController.cs" t="Include" />
+              <e p="NiPoint3Interpolator.cs" t="Include" />
+              <e p="NiPointLight.cs" t="Include" />
+              <e p="NiPosData.cs" t="Include" />
+              <e p="NiProperty.cs" t="Include" />
+              <e p="NiPtr.cs" t="Include" />
+              <e p="NiQuatTransform.cs" t="Include" />
+              <e p="NiQuaternion.cs" t="Include" />
+              <e p="NiRangeLODData.cs" t="Include" />
+              <e p="NiRawImageData.cs" t="Include" />
+              <e p="NiRef.cs" t="Include" />
+              <e p="NiShadeProperty.cs" t="Include" />
+              <e p="NiShaderTexDesc.cs" t="Include" />
+              <e p="NiSingleInterpController.cs" t="Include" />
+              <e p="NiSkinData.cs" t="Include" />
+              <e p="NiSkinInstance.cs" t="Include" />
+              <e p="NiSkinPartition.cs" t="Include" />
+              <e p="NiSourceTexture.cs" t="Include" />
+              <e p="NiSpecularProperty.cs" t="Include" />
+              <e p="NiStencilProperty.cs" t="Include" />
+              <e p="NiString.cs" t="Include" />
+              <e p="NiStringExtraData.cs" t="Include" />
+              <e p="NiSwitchNode.cs" t="Include" />
+              <e p="NiTBC.cs" t="Include" />
+              <e p="NiTexCoord.cs" t="Include" />
+              <e p="NiTexDesc.cs" t="Include" />
+              <e p="NiTexture.cs" t="Include" />
+              <e p="NiTextureProperty.cs" t="Include" />
+              <e p="NiTextureTransformController.cs" t="Include" />
+              <e p="NiTexturingProperty.cs" t="Include" />
+              <e p="NiTimeController.cs" t="Include" />
+              <e p="NiTransform.cs" t="Include" />
+              <e p="NiTransformController.cs" t="Include" />
+              <e p="NiTransformData.cs" t="Include" />
+              <e p="NiTransformInterpolator.cs" t="Include" />
+              <e p="NiTriBasedGeom.cs" t="Include" />
+              <e p="NiTriBasedGeomData.cs" t="Include" />
+              <e p="NiTriShape.cs" t="Include" />
+              <e p="NiTriShapeData.cs" t="Include" />
+              <e p="NiTriStrips.cs" t="Include" />
+              <e p="NiTriStripsData.cs" t="Include" />
+              <e p="NiTriangle.cs" t="Include" />
+              <e p="NiVector3.cs" t="Include" />
+              <e p="NiVertexColorProperty.cs" t="Include" />
+              <e p="NiVisController.cs" t="Include" />
+              <e p="NiZBufferProperty.cs" t="Include" />
+              <e p="PixelFormatComponent.cs" t="Include" />
+              <e p="QuatKey.cs" t="Include" />
+              <e p="SkinPartition.cs" t="Include" />
+            </e>
+            <e p="StandardShaderUtils.cs" t="Include" />
+          </e>
+          <e p="SimpleCameraController.cs" t="Include" />
+          <e p="UniverseImporter.cs" t="Include" />
+        </e>
+        <e p="StandaloneFileBrowser" t="Include">
+          <e p="IStandaloneFileBrowser.cs" t="Include" />
+          <e p="Sample" t="Include">
+            <e p="BasicSample.cs" t="Include" />
+            <e p="CanvasSampleOpenFileImage.cs" t="Include" />
+            <e p="CanvasSampleOpenFileText.cs" t="Include" />
+            <e p="CanvasSampleOpenFileTextMultiple.cs" t="Include" />
+            <e p="CanvasSampleSaveFileImage.cs" t="Include" />
+            <e p="CanvasSampleSaveFileText.cs" t="Include" />
+          </e>
+          <e p="StandaloneFileBrowser.cs" t="Include" />
+          <e p="StandaloneFileBrowserEditor.cs" t="Include" />
+          <e p="StandaloneFileBrowserLinux.cs" t="Include" />
+          <e p="StandaloneFileBrowserMac.cs" t="Include" />
+          <e p="StandaloneFileBrowserWindows.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="NiDotNet.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

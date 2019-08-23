@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d361e16-aa4d-4736-90f3-64c90a622d04" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/QuatKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVisController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Release_Version.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAVObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStencilProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Table.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovementAIComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Row.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoneData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/5c/c5016f69/MeshTopology.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/ColumnInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/70/e3f9793e/AssetImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81342D83-ACDA-4C55-90EC-19C7AFDF26B9/b7/2548171d/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrixIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6649516E-5B35-4231-9FB2-62B421AF0ADB/93/fbe09900/BinaryReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/93/2d8a3639/ScriptedImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/a9/d369b500/AssetImportContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPosData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTransformData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBillboardNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSwitchNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FdbViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/PixelFormatComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTextureTransformController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPersistentSrcTextureRendererData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiQuaternion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShapeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAlphaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSingleInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Factions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexDesc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CollectibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyframeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexturingProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiObjectNet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRaceWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiDirectionalLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/SkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ControlSchemes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovementWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/1b/d1f5fbc5/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRailWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriBasedGeomData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPropertyPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransitionPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSourceTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/AchievementRequired.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/RentalTimeUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPointLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStringExtraData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/UGBehaviorSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2001.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriStripsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk1000.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlObjectTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFormatPrefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Enums/DataType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTableIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2000.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiGeometryData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbBitInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/StandardShaderUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowBucket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/ConsistencyType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbTableHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/NiVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TransformMember.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/AlphaFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/BillboardMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelTiling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/KeyType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelRepresentation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemFoodData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TexType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/sysdiagrams.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiByte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ObjectComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTransformInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowHeader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnHeader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbColumn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRowData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRowColumn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DDS/DDSImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/ShaderUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStringExtraData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Field.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Row.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/ColumnInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FdbViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application Scripts/Fdb Editor/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Fdb/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/DynamicRectElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/EditorApplication/Fdb/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/EditorApplication/DynamicRectElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/DynamicRectElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/FlexibleUISystems/FlexibleDraggableObject/Scripts/FlexibleDraggableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbTableHeader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbBitInt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LuzViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbFile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NiFile.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/Component.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ObjectComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/RightClickToBrowse.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Table.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="njKBkzRX" />
+  </component>
+  <component name="ProjectId" id="1PQHrE9h2V413oiUIPIH1QAb2Hb" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/RiderProjects/NiDotNet/NiDotNet.sln" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3551">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="3551" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d361e16-aa4d-4736-90f3-64c90a622d04" name="Default Changelist" comment="" />
+      <created>1563197222425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563197222425</updated>
+      <workItem from="1563197224778" duration="32227000" />
+      <workItem from="1563289378377" duration="20148000" />
+      <workItem from="1563396813847" duration="6752000" />
+      <workItem from="1563445238779" duration="23730000" />
+      <workItem from="1563556799594" duration="11996000" />
+      <workItem from="1563613341704" duration="23188000" />
+      <workItem from="1563714941697" duration="7442000" />
+      <workItem from="1563734808032" duration="4525000" />
+      <workItem from="1563740732628" duration="2147000" />
+      <workItem from="1565079265944" duration="23916000" />
+      <workItem from="1565799598640" duration="12049000" />
+      <workItem from="1565856442298" duration="7471000" />
+      <workItem from="1566158448894" duration="3872000" />
+      <workItem from="1566284753107" duration="11418000" />
+      <workItem from="1566319228989" duration="10216000" />
+      <workItem from="1566394339606" duration="20933000" />
+      <workItem from="1566493366185" duration="9366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1913" y="808" key="FileChooserDialogImpl" />
+    <state x="1913" y="808" key="FileChooserDialogImpl/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.0.bottom" />
+    <state width="1841" height="771" key="GridCell.Tab.0.bottom/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.0.center" />
+    <state width="1841" height="771" key="GridCell.Tab.0.center/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.0.left" />
+    <state width="1841" height="771" key="GridCell.Tab.0.left/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.0.right" />
+    <state width="1841" height="771" key="GridCell.Tab.0.right/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.1.bottom" />
+    <state width="1841" height="771" key="GridCell.Tab.1.bottom/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.1.center" />
+    <state width="1841" height="771" key="GridCell.Tab.1.center/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.1.left" />
+    <state width="1841" height="771" key="GridCell.Tab.1.left/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.1.right" />
+    <state width="1841" height="771" key="GridCell.Tab.1.right/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.2.bottom" />
+    <state width="1841" height="771" key="GridCell.Tab.2.bottom/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.2.center" />
+    <state width="1841" height="771" key="GridCell.Tab.2.center/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.2.left" />
+    <state width="1841" height="771" key="GridCell.Tab.2.left/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.2.right" />
+    <state width="1841" height="771" key="GridCell.Tab.2.right/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.3.bottom" />
+    <state width="1841" height="771" key="GridCell.Tab.3.bottom/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.3.center" />
+    <state width="1841" height="771" key="GridCell.Tab.3.center/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.3.left" />
+    <state width="1841" height="771" key="GridCell.Tab.3.left/3840.2160" />
+    <state width="1841" height="771" key="GridCell.Tab.3.right" />
+    <state width="1841" height="771" key="GridCell.Tab.3.right/3840.2160" />
+    <state x="2560" y="522" width="672" height="677" key="run.anything.popup" />
+    <state x="2560" y="522" width="672" height="677" key="run.anything.popup/3840.2160" />
+    <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" />
+    <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup/3840.2160" />
+    <state x="2621" y="1007" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" />
+    <state x="2621" y="1007" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/3840.2160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
