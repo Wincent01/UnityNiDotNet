@@ -39,6 +39,7 @@ namespace NiEditorApplication.Fdb
         public GameObject Imagination;
         public GameObject ItemDropPrefab;
         public RectTransform ItemDropParent;
+        public Button AddLootButton;
         
         [Header("Images")]
         public Sprite AddImage;
@@ -79,6 +80,11 @@ namespace NiEditorApplication.Fdb
 
         private void LoadObject()
         {
+            LoadComponents(int.Parse(ObjectIdInput.text));
+        }
+
+        private void LoadComponents(int objectId)
+        {
             if (ComponentsTable == default)
                 ComponentsTable = FdbEditor.Database.Tables.First(t => t.Name == "ComponentsRegistry");
             
@@ -100,9 +106,7 @@ namespace NiEditorApplication.Fdb
 
             _onReloadComponents.Clear();
             _onReloadItems.Clear();
-
-            var objectId = int.Parse(ObjectIdInput.text);
-
+            
             Object = new FdbObject(objectId);
 
             ApplicationTitle.text = $"Object Editor - {objectId}";
@@ -226,7 +230,6 @@ namespace NiEditorApplication.Fdb
 
             if (destroyableComponent != default)
             {
-                Debug.Assert(destroyableComponent.ComponentRow != default);
                 var comp = new DestructibleComponent(destroyableComponent.ComponentRow);
                 healthInput.text = comp.life.ToString();
                 armorInput.text = comp.armor.ToString(CultureInfo.CurrentCulture);
@@ -247,7 +250,9 @@ namespace NiEditorApplication.Fdb
                 c => c.ComponentType == ReplicaComponentsId.RebuildComponent
             );
 
-            if (rebuildComponent != default && destroyableComponent == default)
+            AddLootButton.interactable = destroyableComponent != default;
+
+            if (rebuildComponent == default || destroyableComponent != default) return;
             {
                 var comp = new RebuildComponent(rebuildComponent.ComponentRow);
                 imaginationInput.text = comp.take_imagination.ToString();
@@ -269,29 +274,37 @@ namespace NiEditorApplication.Fdb
             }
             
             _onReloadItems.Clear();
+            
+            AddLootButton.onClick.RemoveAllListeners();;
+            AddLootButton.onClick.AddListener(AddDrop);
 
             float visualIndex = default;
+            
             foreach (var lootMatrix in lootMatrices)
             {
                 var loots = LootDbTable.Rows.Where(r => (int) r.Fields[1].Value == lootMatrix.LootTableIndex)
                     .Select(r => new LootTable(r)).ToArray();
 
-                for (var index = 0; index < loots.Length; index++)
+                foreach (var loot in loots)
                 {
-                    var loot = loots[index];
                     var instance = Instantiate(ItemDropPrefab, ItemDropParent);
 
                     instance.SetActive(true);
 
                     var id = instance.GetComponentsInChildren<TextMeshProUGUI>().First(t => t.gameObject.name == "Id");
 
-                    id.text = loot.id.ToString();
+                    id.text = loot.itemid.ToString();
 
-                    id.transform.parent.GetComponent<Button>().onClick.AddListener(() =>
+                    var extended = id.transform.parent.gameObject.AddComponent<ExtendedButton>();
+
+                    var loot1 = loot;
+                    extended.LeftClick += () =>
                     {
-                        FdbEditor.Singleton.SeekRow(LootDbTable, loot.DatabaseRow);
+                        FdbEditor.Singleton.SeekRow(LootDbTable, loot1.DatabaseRow);
                         FdbEditor.Singleton.Activate();
-                    });
+                    };
+
+                    extended.MiddleClick += () => { LoadComponents(loot.itemid); };
 
                     instance.GetComponentsInChildren<Button>().First(b => b.gameObject.name == "Image").onClick
                         .AddListener(() =>
@@ -310,13 +323,6 @@ namespace NiEditorApplication.Fdb
                     minRate.text = lootMatrix.minToDrop.ToString();
                     maxRate.text = lootMatrix.maxToDrop.ToString();
                     
-                    if (index != default)
-                    {
-                        dropRate.interactable = false;
-                        minRate.interactable = false;
-                        maxRate.interactable = false;
-                    }
-                    else
                     {
                         dropRate.onEndEdit.AddListener(s =>
                         {
@@ -347,6 +353,46 @@ namespace NiEditorApplication.Fdb
             }
             
             ItemDropParent.sizeDelta = new Vector2(ItemDropParent.sizeDelta.x, visualIndex * 32);
+        }
+
+        private void AddDrop()
+        {
+            Debug.Log("Adding Drop...");
+            
+            var destroyableComponent = Object.Components.First(
+                c => c.ComponentType == ReplicaComponentsId.DestructibleComponent
+            );
+            
+            var comp = new DestructibleComponent(destroyableComponent.ComponentRow);
+            
+            var matrix = NewRow(LootMatrixDbTable);
+
+            LootMatrixDbTable.AppendRow(matrix);
+
+            var managedMatrix = new LootMatrix(matrix)
+            {
+                LootMatrixIndex = comp.LootMatrixIndex,
+                id = LootMatrixDbTable.Rows.Select(r => (int) r.Fields[6].Value).Max() + 1,
+                percent = 100,
+                minToDrop = 1,
+                maxToDrop = 1
+            };
+            
+            var lootIndex = LootDbTable.Rows.Select(r => (int) r.Fields[1].Value).Max() + 1;
+
+            managedMatrix.LootTableIndex = lootIndex;
+
+            var loot = NewRow(LootDbTable);
+            
+            LootDbTable.AppendRow(loot);
+
+            var managedLoot = new LootTable(loot)
+            {
+                LootTableIndex = lootIndex,
+                id = LootDbTable.Rows.Select(r => (int) r.Fields[2].Value).Max() + 1
+            };
+
+            SetupLoot(comp.LootMatrixIndex);
         }
     }
 }

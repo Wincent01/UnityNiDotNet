@@ -1,4 +1,7 @@
+using System;
 using System.Collections.Generic;
+using Fdb.Database;
+using Fdb.Enums;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,6 +48,53 @@ namespace NiEditorApplication
         public void FixedUpdate()
         {
             //_rectTransform.sizeDelta = new Vector2(Screen.width, Screen.height);
+        }
+
+        public Row NewRow(Table table)
+        {
+            var fields = new Field[table.Structure.Length];
+
+            for (var index = 0; index < fields.Length; index++)
+            {
+                var field = table.Structure[index];
+
+                fields[index] = new Field(field.Type, 0);
+
+                switch (field.Type)
+                {
+                    case DataType.Nothing:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Integer:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Unknown1:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Float:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Text:
+                        fields[index].Value = "";
+                        break;
+                    case DataType.Boolean:
+                        fields[index].Value = false;
+                        break;
+                    case DataType.Bigint:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Unknown2:
+                        fields[index].Value = 0;
+                        break;
+                    case DataType.Varchar:
+                        fields[index].Value = "";
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+            }
+
+            return new Row(fields);
         }
     }
 }

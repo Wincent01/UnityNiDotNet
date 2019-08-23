@@ -7,8 +7,7 @@ namespace NiEditorApplication
 {
     public class ScriptBatch 
     {
-        [MenuItem("Build/Linux 64")]
-        public static void BuildGame ()
+        private static void BuildGame(BuildTarget target)
         {
             // Get filename.
             var path = EditorUtility.SaveFolderPanel("Choose Location of Built Game", "", "");
@@ -19,13 +18,31 @@ namespace NiEditorApplication
             {
                 levels[i] = UnityEngine.SceneManagement.SceneUtility.GetScenePathByBuildIndex(i);
             }
-            
-            // Build player.
-            BuildPipeline.BuildPlayer(levels, path + "/NiDotNet.exe", BuildTarget.StandaloneLinux64, BuildOptions.None);
 
+            // Build player.
+            BuildPipeline.BuildPlayer(levels, path + "/NiDotNet.exe", target, BuildOptions.None);
+            
             // Run the game (Process class from System.Diagnostics).
             var proc = new Process {StartInfo = {FileName = path + "/NiDotNet.exe"}};
             proc.Start();
+        }
+
+        [MenuItem("Build/Linux 64")]
+        public static void BuildLinux()
+        {
+            BuildGame(BuildTarget.StandaloneLinux64);
+        }
+        
+        [MenuItem("Build/Windows 64")]
+        public static void BuildWindows()
+        {
+            BuildGame(BuildTarget.StandaloneWindows64);
+        }
+        
+        [MenuItem("Build/MacOS 64")]
+        public static void BuildMacOs()
+        {
+            BuildGame(BuildTarget.StandaloneOSX);
         }
     }
 }
