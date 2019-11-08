@@ -5,8 +5,8 @@
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_NiDotNet.-437593835.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/rust_expanded_macros/njKBkzRX/expansions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Materials" t="Include">
@@ -16,13 +16,17 @@
         </e>
         <e p="NiEditorApplication" t="Include">
           <e p="Build.cs" t="Include" />
-          <e p="ExtendedButton.cs" t="Include" />
-          <e p="Fdb" t="Include">
+          <e p="Editors" t="Include">
             <e p="FdbEditor.cs" t="Include" />
+            <e p="LocaleEditor.cs" t="Include" />
+            <e p="MissionEditor.cs" t="Include" />
+            <e p="NiEditor.cs" t="Include" />
             <e p="ObjectEditor.cs" t="Include" />
           </e>
+          <e p="ExtendedButton.cs" t="Include" />
+          <e p="Locale.cs" t="Include" />
           <e p="MiddleClickToBrowse.cs" t="Include" />
-          <e p="NiEditor.cs" t="Include" />
+          <e p="MissionTextType.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Fdb" t="Include">
@@ -260,6 +264,7 @@
             <e p="NiFile.cs" t="Include" />
             <e p="NiHeader.cs" t="Include" />
             <e p="NifImporter.cs" t="Include" />
+            <e p="NifRuntime.cs" t="Include" />
             <e p="Nodes" t="Include">
               <e p="AbstractAdditionalGeometryData.cs" t="Include" />
               <e p="NiAVObject.cs" t="Include" />
@@ -367,6 +372,16 @@
             </e>
             <e p="StandardShaderUtils.cs" t="Include" />
           </e>
+          <e p="Raw" t="Include">
+            <e p="Chunk.cs" t="Include" />
+            <e p="ColorMap.cs" t="Include" />
+            <e p="DDS.cs" t="Include" />
+            <e p="HeightMap.cs" t="Include" />
+            <e p="RawFile.cs" t="Include" />
+            <e p="RawImporter.cs" t="Include" />
+            <e p="ShortMap.cs" t="Include" />
+            <e p="WeirdStruct.cs" t="Include" />
+          </e>
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="UniverseImporter.cs" t="Include" />
         </e>
@@ -412,14 +427,6 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
-        </e>
-        <e p="TutorialInfo" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="ReadmeEditor.cs" t="Include" />
-            </e>
-            <e p="Readme.cs" t="Include" />
           </e>
         </e>
       </e>

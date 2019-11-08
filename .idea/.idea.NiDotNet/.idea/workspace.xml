@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d361e16-aa4d-4736-90f3-64c90a622d04" name="Default Changelist" comment="" />
+    <list default="true" id="9d361e16-aa4d-4736-90f3-64c90a622d04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/LocaleEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/LocaleEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/MissionEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/MissionEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Locale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Locale.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/MissionTextType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/MissionTextType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NIF/NifRuntime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NIF/NifRuntime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/Chunk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/Chunk.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/ColorMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/DDS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/DDS.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/HeightMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/RawFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/RawFile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/RawImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/RawImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/ShortMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/WeirdStruct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Raw/WeirdStruct.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Nif/fvtrack_ghost_smashable_evil.nif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Nif/fvtrack_ghost_smashable_evil.nif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/FdbEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/FdbEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/ObjectEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/ObjectEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/NiEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/NiEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nif Imports.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nif Imports/env_won_gnar_race_start.nif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nif Imports/env_won_gnar_race_start.nif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/General/Images/512px-Minus_font_awesome.svg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/General/Images/512px-Minus_font_awesome.svg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/General/Images/Imagination-orb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/General/Images/Imagination-orb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NiDotNet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NiDotNet.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AICombatRoles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AICombatRoles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Activities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Activities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityRewards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityRewards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AnimationIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AnimationIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Animations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Animations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BaseCombatAIComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BaseCombatAIComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorParameter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorTemplateName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BehaviorTemplateName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Blueprints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Blueprints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BrickColors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BrickColors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BrickIDTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BrickIDTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BuffDefinitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BuffDefinitions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BuffParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/BuffParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Camera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CelebrationParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CelebrationParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ChoiceBuildComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ChoiceBuildComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CollectibleComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CollectibleComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ControlSchemes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ControlSchemes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CurrencyDenominations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CurrencyDenominations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CurrencyTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CurrencyTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DBExclude.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DBExclude.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DeletionRestrictions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DeletionRestrictions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DevModelBehaviors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DevModelBehaviors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Emotes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Emotes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/EventGating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/EventGating.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ExhibitComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ExhibitComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Factions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Factions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/FeatureGating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/FeatureGating.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/FlairTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/FlairTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Icons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Icons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/InventoryComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/InventoryComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemEggData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemEggData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemFoodData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemFoodData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemSetSkills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemSetSkills.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemSets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemSets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/JetPackPadComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/JetPackPadComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPExhibitComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPExhibitComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPExhibitModelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPExhibitModelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPZoneIDs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LUPZoneIDs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LanguageType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LanguageType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LevelProgressionLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LevelProgressionLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrixIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrixIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTableIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTableIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Eyebrows.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Eyebrows.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Eyes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Eyes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Legs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Mouths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Mouths.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Torsos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MinifigDecals_Torsos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionEmail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionEmail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionNPCComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionNPCComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionTasks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionTasks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Missions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Missions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModelBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModelBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModularBuildComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModularBuildComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModuleComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModuleComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MotionFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MotionFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovementAIComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovementAIComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovingPlatforms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovingPlatforms.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/NpcIcons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/NpcIcons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectBehaviorXREF.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectBehaviorXREF.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectBehaviors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectBehaviors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectSkills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ObjectSkills.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Objects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PackageComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PackageComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetAbilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetAbilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetNestComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PetNestComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PlayerFlags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PlayerFlags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PlayerStatistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PlayerStatistics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PossessableComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PossessableComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Preconditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Preconditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PropertyEntranceComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PropertyEntranceComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PropertyTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PropertyTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ProximityMonitorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ProximityMonitorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ProximityTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ProximityTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RacingModuleComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RacingModuleComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RailActivatorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RailActivatorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTableIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTableIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RebuildComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RebuildComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RebuildSections.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RebuildSections.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Release_Version.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Release_Version.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponentFlash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponentFlash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponentWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponentWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderIconAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderIconAssets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ReputationRewards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ReputationRewards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RewardCodes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RewardCodes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Rewards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Rewards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RocketLaunchpadControlComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RocketLaunchpadControlComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SceneTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SceneTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ScriptComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ScriptComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SkillBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SkillBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableChain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableChain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableChainIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableChainIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableElements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SmashableElements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SpeedchatMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SpeedchatMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SubscriptionPricing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SubscriptionPricing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SurfaceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/SurfaceType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TamingBuildPuzzles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TamingBuildPuzzles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TextDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TextDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TextLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TextLanguage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TrailEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/TrailEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/UGBehaviorSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/UGBehaviorSounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VehiclePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VehiclePhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VehicleStatMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VehicleStatMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VendorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/VendorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WhatsCoolItemSpotlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WhatsCoolItemSpotlight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WhatsCoolNewsAndTips.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WhatsCoolNewsAndTips.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WorldConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/WorldConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneLoadingTips.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneLoadingTips.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneSummary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneSummary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ZoneTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/brickAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/brickAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/dtproperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/dtproperties.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapAnimationPriorities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapAnimationPriorities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapAssetType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapAssetType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapItemTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapItemTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapRenderEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapRenderEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapShaders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapShaders.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapTextureResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/mapTextureResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/map_BlueprintCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/map_BlueprintCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/sysdiagrams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/sysdiagrams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/LWIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/LWIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,203 +230,197 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/QuatKey.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVisController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor4.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Release_Version.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAVObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStencilProperty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbDatabase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Table.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovementAIComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Row.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoneData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/5c/c5016f69/MeshTopology.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Field.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/ColumnInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/70/e3f9793e/AssetImporter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81342D83-ACDA-4C55-90EC-19C7AFDF26B9/b7/2548171d/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrixIndex.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6649516E-5B35-4231-9FB2-62B421AF0ADB/93/fbe09900/BinaryReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/93/2d8a3639/ScriptedImporter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/a9/d369b500/AssetImportContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKey.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiString.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPosData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzViewer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTransformData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBillboardNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiProperty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSwitchNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FdbViewer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/PixelFormatComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTextureTransformController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVector3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPersistentSrcTextureRendererData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiQuaternion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriangle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloat.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShapeData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAlphaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrix.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSingleInterpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Factions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexDesc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CollectibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyframeData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexturingProperty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyGroup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiObjectNet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRaceWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiDirectionalLight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/SkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ControlSchemes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovementWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/1b/d1f5fbc5/Rect.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRailWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriBasedGeomData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzFile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPropertyPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransitionPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSourceTexture.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/AchievementRequired.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/RentalTimeUnit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPointLight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStringExtraData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/UGBehaviorSounds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2001.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriStripsData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataDictionary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk1000.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlObjectTemplate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFormatPrefs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Enums/DataType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTableIndex.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlFile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2000.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiGeometryData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbBitInt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiFile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbFile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/StandardShaderUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowBucket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiHeader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowHeader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/ConsistencyType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbScope.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbTableHeader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/NiVersion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TransformMember.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/AlphaFormat.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/BillboardMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelTiling.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/KeyType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelRepresentation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemFoodData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TexType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/sysdiagrams.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiByte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStencilProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbTableHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAVObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Editors/NiEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Editors/FdbEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ObjectComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Editors/ObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/ColumnInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/ColorMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVisController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/Chunk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/DDS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/MissionTextType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/QuatKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbBitInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiColor3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Locale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Editors/MissionEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/HeightMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/RawFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/UGBehaviorSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTransformInterpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiByte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NifRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/RawImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Materials/Nif/Vertex.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Editors/LocaleEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TexType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/WeirdStruct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/CollectibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raw/ShortMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelRepresentation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/KeyType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/NiDotNet.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootTableIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LvlObjectTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelTiling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/BillboardMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/AlphaFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/TransformMember.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/15C98672-4BDC-4802-9390-9469513CFDB3/9b/451f1bc6/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/NiVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Release_Version.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/NiFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/ConsistencyType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AICombatRoles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Enums/PixelComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FdbViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Activities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/StandardShaderUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/General/Images/512px-Minus_font_awesome.svg.png.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2000.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk1000.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiGeometryData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/1b/d1f5fbc5/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFormatPrefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Fdb/Prefabs/Table.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/Chunk2001.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lvl/LegoDataList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/a9/d369b500/AssetImportContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriStripsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/RentalTimeUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/AchievementRequired.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPixelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStringExtraData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPointLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/Enums/PathBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/93/2d8a3639/ScriptedImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6649516E-5B35-4231-9FB2-62B421AF0ADB/93/fbe09900/BinaryReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransitionPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81342D83-ACDA-4C55-90EC-19C7AFDF26B9/b7/2548171d/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSourceTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ItemFoodData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0E49742-460B-4987-B693-369632C5EDEB/70/e3f9793e/AssetImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LuzViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzCameraWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPropertyPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F48EC15D-1034-46C3-9751-B23DD147A1D7/5c/c5016f69/MeshTopology.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ControlSchemes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRailWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiLODData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriBasedGeomData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzPathConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovementWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzMovingPlatformWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzRaceWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Factions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Luz/LuzSpawnerWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCA6E729-1A16-42CB-A065-7325C21F8848/2c/3f346313/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/SkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiDirectionalLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/15C98672-4BDC-4802-9390-9469513CFDB3/c9/79a05ae0/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiObjectNet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSkinPartition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ModularBuildComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexturingProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCA6E729-1A16-42CB-A065-7325C21F8848/ee/2b03b003/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MovementAIComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/LootMatrixIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKeyframeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NiEditorApplication/ExtendedButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTableIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTexDesc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityRewards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/MissionNPCComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/sysdiagrams.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Row.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSingleInterpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Table.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiAlphaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriShapeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/Enums/DataType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiQuaternion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPersistentSrcTextureRendererData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiVector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTextureTransformController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/PixelFormatComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiSwitchNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowBucket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBillboardNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiTransformData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiPosData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiFloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fdb/FdbScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiBoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowHeader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnHeader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbRowData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbColumn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRowData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbColumnData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbTable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbRowColumn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DDS/DDSImage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/ShaderUtils.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/Nodes/NiStringExtraData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbDatabase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Field.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Row.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/FdbDatabase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/ColumnInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FdbViewer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Application Scripts/Fdb Editor/FdbEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Application/Fdb/FdbEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Application/DynamicRectElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/EditorApplication/Fdb/FdbEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/EditorApplication/DynamicRectElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/DynamicRectElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/FlexibleUISystems/FlexibleDraggableObject/Scripts/FlexibleDraggableObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbTableHeader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbBitInt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LuzViewer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbFile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NiFile.cs" />
-        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Build.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/Component.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ComponentsRegistry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/PhysicsComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ObjectComponent.cs" />
@@ -226,23 +428,70 @@
         <option value="$PROJECT_DIR$/Assets/NiEditorApplication/RightClickToBrowse.cs" />
         <option value="$PROJECT_DIR$/Assets/NiEditorApplication/MiddleClickToBrowse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Table.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/NiEditorApplication/NiEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/DDS/DDSImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/DDS/DxtUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RenderComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/FdbString.cs" />
         <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/ObjectEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/ReplicaComponentId.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Fdb/MissionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editor/MissionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editor/ObjectEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AccessoryDefaultLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/AICombatRoles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/Activities.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/ActivityRewards.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/RarityTableIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/Prop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Object/FdbObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Locale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fdb/Database/Structures/DestructibleComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/Heightmap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/Colormap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/Shortmap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/ShortMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/Chunk.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/WeirdStruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/HeightMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/ColorMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UniverseImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/RawImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/DDS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LuzImporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/RawFile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raw/Triangulator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NifRuntime.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/NiEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/MissionTextType.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/ObjectEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/LocaleEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/MissionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/NiEditorApplication/Editors/FdbEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NIF/NifImporter.cs" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="njKBkzRX" />
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.NiDotNet/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1PQHrE9h2V413oiUIPIH1QAb2Hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/RiderProjects/NiDotNet/NiDotNet.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../LEGO Universe/LUTerrain/LUTerrain.csproj" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -308,6 +557,24 @@
       <workItem from="1566319228989" duration="10216000" />
       <workItem from="1566394339606" duration="20933000" />
       <workItem from="1566493366185" duration="9366000" />
+      <workItem from="1566572775238" duration="7622000" />
+      <workItem from="1566646245991" duration="16405000" />
+      <workItem from="1566721090754" duration="14022000" />
+      <workItem from="1566766908384" duration="599000" />
+      <workItem from="1566839418247" duration="4900000" />
+      <workItem from="1566891686393" duration="6273000" />
+      <workItem from="1566929190973" duration="374000" />
+      <workItem from="1567107104496" duration="1529000" />
+      <workItem from="1567857338622" duration="3418000" />
+      <workItem from="1567882979373" duration="6579000" />
+      <workItem from="1567950640876" duration="1680000" />
+      <workItem from="1569331903390" duration="1641000" />
+      <workItem from="1569437276176" duration="3676000" />
+      <workItem from="1569876669393" duration="726000" />
+      <workItem from="1571253286251" duration="807000" />
+      <workItem from="1572281416894" duration="534000" />
+      <workItem from="1572458733744" duration="2314000" />
+      <workItem from="1573230241324" duration="582000" />
     </task>
     <servers />
   </component>
@@ -315,11 +582,26 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1727" y="1114" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" />
+    <state x="1727" y="1114" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/3840.2160" />
     <state x="1913" y="808" key="FileChooserDialogImpl" />
     <state x="1913" y="808" key="FileChooserDialogImpl/3840.2160" />
     <state width="1841" height="771" key="GridCell.Tab.0.bottom" />
@@ -354,6 +636,10 @@
     <state width="1841" height="771" key="GridCell.Tab.3.left/3840.2160" />
     <state width="1841" height="771" key="GridCell.Tab.3.right" />
     <state width="1841" height="771" key="GridCell.Tab.3.right/3840.2160" />
+    <state x="1935" y="864" key="Rider.ProjectTemplateDialog.Size" />
+    <state x="1935" y="864" key="Rider.ProjectTemplateDialog.Size/3840.2160" />
+    <state x="1694" y="992" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" />
+    <state x="1694" y="992" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/3840.2160" />
     <state x="2560" y="522" width="672" height="677" key="run.anything.popup" />
     <state x="2560" y="522" width="672" height="677" key="run.anything.popup/3840.2160" />
     <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" />

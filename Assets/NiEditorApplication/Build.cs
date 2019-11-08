@@ -3,7 +3,7 @@
 using UnityEditor;
 using System.Diagnostics;
 
-namespace NiEditorApplication
+namespace NiEditorApplication.Editor
 {
     public class ScriptBatch 
     {

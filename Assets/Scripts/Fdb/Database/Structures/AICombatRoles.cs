@@ -1,4 +1,3 @@
-using NiEditorApplication.Fdb;
 using System.Linq;
 
 namespace Fdb.Database
@@ -71,7 +70,7 @@ namespace Fdb.Database
 		public AICombatRoles(Row databaseRow)
 		{
 			DatabaseRow = databaseRow;
-			DatabaseTable = FdbEditor.Database.Tables.First(t => t.Name == "AICombatRoles");
+			DatabaseTable = NiEditorApplication.Editor. FdbEditor.Database.Tables.First(t => t.Name == "AICombatRoles");
 		}
 	}
 }

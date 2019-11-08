@@ -1,5 +1,5 @@
-using NiEditorApplication.Fdb;
 using System.Linq;
+using NiEditorApplication.Editor;
 
 namespace Fdb.Database
 {
@@ -20,7 +20,7 @@ namespace Fdb.Database
 
 		public string render_asset
 		{
-			get => (string) DatabaseRow.Fields[1].Value;
+			get => DatabaseRow.Fields[1].Value.ToString();
 			set
 			{
 				DatabaseRow.Fields[1].Value = value;
@@ -30,7 +30,7 @@ namespace Fdb.Database
 
 		public string icon_asset
 		{
-			get => (string) DatabaseRow.Fields[2].Value;
+			get => DatabaseRow.Fields[2].Value.ToString();
 			set
 			{
 				DatabaseRow.Fields[2].Value = value;

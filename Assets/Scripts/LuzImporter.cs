@@ -35,14 +35,20 @@ public class LuzImporter : ScriptedImporter
             foreach (var template in lvlFile.Chunks2001.SelectMany(c => c.Objects))
             {
                 if (template.Ldf.TryGetValue("spawntemplate", out var realId))
+                {
+                    Debug.Log($"{template.Lot} is spawner");
                     template.Lot = (int) realId;
+                    Debug.Log($"{template.Lot} came from spawner.");
+                }
                 /*
                 else if (template.Ldf.TryGetValue("loadSrvrOnly", out var serverOnly) && (bool) serverOnly ||
-                    template.Ldf.TryGetValue("carver_only", out var carverOnly) && (bool) carverOnly ||
-                    template.Ldf.TryGetValue("renderDisabled", out var disabled) && (bool) disabled)
+                        template.Ldf.TryGetValue("carver_only", out var carverOnly) && (bool) carverOnly ||
+                        template.Ldf.TryGetValue("renderDisabled", out var disabled) && (bool) disabled)
+                {
                     continue;
-                    */
-                
+                }
+                */
+
                 var comps = objects.Rows?.Where(r => r?.Fields[0]?.Value.ToString() == template.Lot.ToString()).ToArray();
                 var render = comps?.FirstOrDefault(r => r.Fields[1].Value.ToString() == "2");
                 if (render == null) continue;

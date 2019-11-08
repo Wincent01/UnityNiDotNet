@@ -2,7 +2,7 @@ using System.Linq;
 using SFB;
 using TMPro;
 
-namespace NiEditorApplication
+namespace NiEditorApplication.Editor
 {
     public class MiddleClickToBrowse : ExtendedButton
     {

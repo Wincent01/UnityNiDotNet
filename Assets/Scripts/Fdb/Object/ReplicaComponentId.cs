@@ -74,7 +74,7 @@ namespace Fdb.Object
         DroppedLootComponent = 70,
         RacingControlComponent = 71,
         FactionTriggerComponent = 72,
-        MissionOfferComponent = 73,
+        MissionNPCComponent = 73,
         RacingStatsComponent = 74,
         LUPExhibitComponent = 75,
         BBBComponent = 76,

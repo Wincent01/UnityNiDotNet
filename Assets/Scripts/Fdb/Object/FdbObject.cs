@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Fdb.Database;
 using Fdb.Enums;
-using NiEditorApplication.Fdb;
+using NiEditorApplication.Editor;
 
 namespace Fdb.Object
 {

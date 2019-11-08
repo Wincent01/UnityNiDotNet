@@ -9,7 +9,6 @@ using NiDotNet.NIF.Enums;
 using NiDotNet.NIF.Nodes;
 using UnityEditor.Experimental.AssetImporters;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace NIF
 {
@@ -50,12 +49,16 @@ namespace NIF
 
             public GameObject Holder;
         }
-
-    
+        
         public override void OnImportAsset(AssetImportContext ctx)
         {
             _niFile = new NiFile(assetPath);
             _context = ctx;
+
+            foreach (var niString in _niFile.Header.Strings)
+            {
+                Debug.Log(niString);
+            }
         
             Debug.ClearDeveloperConsole();
             Debug.Log($"Importing {assetPath}");
@@ -121,9 +124,9 @@ namespace NIF
         private void BuildAnimations()
         {
             var clip = new AnimationClip();
-            var amims = _niFile.Blocks.OfType<NiTransformController>().ToArray();
-            if (!amims.Any()) return;
-            foreach (var block in amims)
+            var animations = _niFile.Blocks.OfType<NiTransformController>().ToArray();
+            if (!animations.Any()) return;
+            foreach (var block in animations)
             {
                 BuildAnimationGraph(block, clip);
             }
@@ -241,7 +244,7 @@ namespace NIF
 
             var oldRenderer = holder.GetComponent<MeshRenderer>();
             var mat = oldRenderer.sharedMaterial;
-            Object.DestroyImmediate(oldRenderer);
+            DestroyImmediate(oldRenderer);
         
             var renderer = holder.AddComponent<SkinnedMeshRenderer>();
             renderer.sharedMaterial = mat;
@@ -329,7 +332,7 @@ namespace NIF
                 //    "Offset of the skin from this bone in bind position."
                 //    But I'm having a hard type parsing that.
                 //
-            
+                
                 var transform = unityObject;
 
                 var pos = transform.position;
@@ -500,7 +503,7 @@ namespace NIF
                             switch (textureProperty.BaseTexture.Source.Object.FormatPrefs.Alpha)
                             {
                                 case AlphaFormat.AlphaNone:
-                                    texture = LoadTextureDXT(
+                                    texture = LoadTextureDxt(
                                         File.ReadAllBytes($"{Path.Combine(UniverseImporter.NifImportDir, image)}"),
                                         TextureFormat.DXT1
                                     );
@@ -508,7 +511,7 @@ namespace NIF
                                 case AlphaFormat.AlphaBinary:
                                 case AlphaFormat.AlphaSmooth:
                                 case AlphaFormat.AlphaDefault:
-                                    texture = LoadTextureDXT(
+                                    texture = LoadTextureDxt(
                                         File.ReadAllBytes($"{Path.Combine(UniverseImporter.NifImportDir, image)}"),
                                         TextureFormat.DXT5
                                     );
@@ -605,10 +608,19 @@ namespace NIF
             {
                 var lod = renderer.transform.parent.GetComponent<LODGroup>();
                 if (!lod) return;
-                var id = int.Parse(renderer.transform.name.Split('_')[1]);
 
                 var levels = lod.GetLODs();
-                levels[id].renderers = new[] {renderer};
+
+                for (var index = 0; index < levels.Length; index++)
+                {
+                    var level = levels[index];
+
+                    if (level.renderers != default && level.renderers.Any()) continue;
+                    
+                    levels[index].renderers = new[] {renderer};
+                    break;
+                }
+
                 lod.SetLODs(levels);
             }
             catch
@@ -669,7 +681,7 @@ namespace NIF
             return path;
         }
         
-        public static Texture2D LoadTextureDXT(byte[] ddsBytes, TextureFormat textureFormat)
+        public static Texture2D LoadTextureDxt(byte[] ddsBytes, TextureFormat textureFormat)
         {
             if (textureFormat != TextureFormat.DXT1 && textureFormat != TextureFormat.DXT5)
                 throw new Exception("Invalid TextureFormat. Only DXT1 and DXT5 formats are supported by this method.");
@@ -691,7 +703,6 @@ namespace NIF
      
             return (texture);
         }
-
     }
 }
 

@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace NiEditorApplication
+namespace NiEditorApplication.Editor
 {
     public class ExtendedButton : MonoBehaviour, IPointerClickHandler
     {
