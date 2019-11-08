@@ -7,10 +7,12 @@ In various stages of complete, bug free, and user friendly.
 
 ##### A Nif Importer
 Open then UniverseImporter in Window -> Universe Importer
+
 Works on a majority of .nif files from LU. Skinned meshes are broken.
 
 ##### A Luz Importer
 Open then UniverseImporter in Window -> Universe Importer
+
 Reads the Luz file and Lvl files and assembles them into a scene.
 First let it import once, than delete the luz file, and reimport to place everything in the scene.
 
